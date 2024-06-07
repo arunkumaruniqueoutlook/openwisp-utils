@@ -1,3 +1,4 @@
 # For testing Dependency loaders
 openwisp_controller @ https://github.com/openwisp/openwisp-controller/tarball/master
 
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
